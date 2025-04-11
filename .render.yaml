@@ -1,13 +1,16 @@
 services:
   - type: web
-    name: painel-trading
+    name: AutomaticTrade
     env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run painel_resultados_real.py --server.port=$PORT
     plan: free
-  - type: worker
-    name: bot-trading
-    env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python bot.py
-    plan: free
+    startCommand: ./start.sh
+    envVars:
+      - key: API_KEY
+        sync: false
+      - key: API_SECRET
+        sync: false
+      - key: BOT_TOKEN
+        sync: false
+      - key: CHAT_ID
+        sync: false
