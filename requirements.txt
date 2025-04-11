@@ -1,8 +1,6 @@
 streamlit
 pandas
-ta
 numpy
-python-dotenv
-pybit
 requests
-pytz
+pybit
+python-telegram-bot
