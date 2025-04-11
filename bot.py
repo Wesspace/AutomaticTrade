@@ -1,0 +1,1 @@
+# Conteúdo do bot com scalping, Bybit e Telegram

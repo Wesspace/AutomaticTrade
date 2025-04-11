@@ -1,2 +1,3 @@
-# AutomaticTrade
-Bot de trading automatizado com painel via Streamlit
+# SmartTrader View
+
+Sistema de automação de trading com painel visual integrado.

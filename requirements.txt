@@ -1,0 +1,8 @@
+streamlit
+pandas
+ta
+numpy
+python-dotenv
+pybit
+requests
+pytz

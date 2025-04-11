@@ -1,0 +1,1 @@
+# Painel em Streamlit com filtros, gráficos e relatórios
