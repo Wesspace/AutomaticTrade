@@ -1,0 +1,6 @@
+streamlit
+pandas
+numpy
+requests
+pybit
+python-telegram-bot

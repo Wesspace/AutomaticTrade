@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: SmartTraderView
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: sh start.sh
