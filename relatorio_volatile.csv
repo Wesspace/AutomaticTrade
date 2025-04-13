@@ -1,0 +1,3 @@
+data,ativo,direcao,preco_entrada,preco_saida,lucro
+2025-04-12,BTCUSDT,LONG,67890,68100,2.1
+2025-04-12,ETHUSDT,SHORT,3456,3420,1.7
